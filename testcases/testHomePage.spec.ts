@@ -1,4 +1,4 @@
-import { test, expect } from '../pages/PageObjectHelper';
+import { test, expect } from '../pages/fixture';
 
 let Email = 'dung@yopmail.com'
 let Password = '1234@Company'
