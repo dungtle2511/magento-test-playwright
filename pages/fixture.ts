@@ -1,9 +1,9 @@
 import { test as base } from '@playwright/test';
 
-import { HomePage } from './HomePage';
-import { SignInPage } from './SignInPage';
-import { SignUpPage } from './SignUpPage';
-import { CustomerAccountPage } from './CustomerAccountPage';
+import { HomePage } from './Home.page';
+import { SignInPage } from './SignIn.page';
+import { SignUpPage } from './SignUp.page';
+import { CustomerAccountPage } from './CustomerAccount.page';
 
 export type Pages = {
     homePage: HomePage
